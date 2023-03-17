@@ -402,6 +402,22 @@
             </li>
           </ul>
         </div>
+        <!-- Form -->
+        <form class="form-subscribe">
+          <p class="footer-subscribe-title">Subscribe</p>
+          <div class="form-subscribe-items">
+            <div class="form-subscribe-field">
+              <label for="email" class="form-subscribe-label">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <button type="submit" class="btn btn-subscribe">
+              Subscribe
+              <svg width="24" height="20">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
     <!-- Backdrop -->
@@ -413,16 +429,108 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="form-order-title">
+          Leave your contacts and we will call you back
+        </p>
+        <!-- Form-order -->
+        <form class="form-order">
+          <div class="form-order-field">
+            <label for="user-name" class="">Name</label>
+            <div class="form-order-field-wrap">
+              <input
+                class="form-order-input"
+                name="user-name"
+                type="text"
+                id="user-name"
+              />
+              <svg class="form-order-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-order-field">
+            <label for="user-tel" class="">Phone</label>
+            <div class="form-order-field-wrap">
+              <input
+                class="form-order-input"
+                name="user-tel"
+                type="tel"
+                id="user-tel"
+              />
+              <svg class="form-order-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-order-field">
+            <label for="user-email" class="form-order-label">Email</label>
+            <div class="form-order-field-wrap">
+              <input
+                class="form-order-input"
+                name="user-email"
+                type="email"
+                id="user-email"
+              />
+              <svg class="form-order-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <button type="submit">Send</button>
+          <!-- Попередня робота
+            <div class="form-order-field">
+            <label for="name" class="form-order-label">Name</label>
+            <div class="form-order-input-wrap">
+              <input
+                class="form-order-input"
+                type="text"
+                name="name"
+                id="name"
+              />
+              <svg class="form-order-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-order-field">
+            <label for="tel" class="form-order-label">Phone</label>
+            <input class="form-order-input" type="tel" name="tel" id="tel" />
+            <svg class="form-order-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+          <div class="form-order-field">
+            <label for="email" class="form-order-label">Email</label>
+            <input
+              class="form-order-input"
+              type="email"
+              name="email"
+              id="email"
+            />
+            <svg class="form-order-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+           <div class="form-order-field">
+            <label for="comment">Comment</label>
+            <textarea
+              class="comment"
+              name="comment"
+              id="comment"
+              placeholder="Text input"
+            >
+            </textarea>
+          </div>
+          <div class="form-order-checkbox">
+            <input type="checkbox" name="policy" id="policy" />
+            <label for="policy" class="form-order-label-checkbox"
+              >I accept the terms and conditions of the
+              <a href="#">Privacy Policy </a>
+            </label>
+          </div>
+          <button type="submit" class="btn primary">Send</button> -->
+        </form>
       </div>
-      <form class="form-order">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" />
-        <label for="tel">Phone</label>
-        <input type="tel" name="tel" id="tel" />
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" />
-        <button type="submit">Send</button>
-      </form>
     </div>
     <script src="./js/modal.js"></script>
   </body>
