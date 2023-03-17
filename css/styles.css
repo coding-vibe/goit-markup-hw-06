@@ -629,14 +629,13 @@ body {
   background-color: var(--success-color);
 }
 
+/* Form */
 .footer-subscribe-title {
   margin-bottom: 18px;
   color: var(--main-basic-color);
 
   font-weight: var(--med-font);
 }
-
-/* Form */
 
 .form-subscribe {
   margin-left: 80px;
