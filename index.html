@@ -122,7 +122,7 @@
       <!-- Our Flow -->
       <section class="flow">
         <div class="container">
-          <h2 class="section-title">What are we doing</h2>
+          <h2 class="flow-title section-title">What are we doing</h2>
           <ul class="flow-list list">
             <li class="flow-item">
               <img
@@ -403,32 +403,24 @@
           </ul>
         </div>
         <!-- Form -->
-        <form class="form-subscribe">
+        <div class="form-subscribe-wrap">
           <p class="footer-subscribe-title">Subscribe</p>
-          <div class="form-subscribe-items">
-            <div class="form-subscribe-field">
-              <label
-                for="email"
-                aria-label="Email"
-                class="form-subscribe-label"
-              >
-                <input
-                  class="form-subscribe-input"
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Email"
-                />
-              </label>
-            </div>
+          <form class="form-subscribe">
+            <input
+              class="form-subscribe-input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+            />
             <button type="submit" class="btn btn-subscribe">
               Subscribe
               <svg width="24" height="20">
                 <use href="./images/icons.svg#icon-subscribe"></use>
               </svg>
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Backdrop -->
